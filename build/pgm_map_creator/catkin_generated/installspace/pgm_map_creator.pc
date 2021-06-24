@@ -1,8 +1,0 @@
-prefix=/home/robond/workspace/where-am-i/install
-
-Name: pgm_map_creator
-Description: Description of pgm_map_creator
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/robond/workspace/where-am-i/install/lib 
-Requires: 
