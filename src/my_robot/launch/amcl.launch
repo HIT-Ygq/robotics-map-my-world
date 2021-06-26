@@ -20,6 +20,9 @@
     <param name="initial_pose_x" value="0"/>
     <param name="initial_pose_y" value="0"/>
     <param name="initial_pose_a" value="-1.5707"/>
+    <param name="min_particles" value="100"/>
+    <param name="max_particles" value="5000"/>
+    <param name="odom_model_type" value="diff-corrected"/>
   </node>
 
   <!-- Move Base -->
