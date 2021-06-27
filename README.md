@@ -29,5 +29,9 @@ $ roslaunch my_robot amcl.launch
 ```
 
 #### Screenshots
-<img src="https://github.com/michailtam/where-am-i/blob/master/images/initial_pose_and_laser_scan.png" alt="initial pose & laser scan" width="760" height="400" border="0" />
+
+| Description | Screenshot |
+| --- | --- |
+| Initial position and pose | <img src="https://github.com/michailtam/where-am-i/blob/master/images/initial_pose_and_laser_scan.png" alt="initial pose & laser scan" width="760" height="400" border="0" /> |
+| git diff | Show file differences that haven't been staged |
 
