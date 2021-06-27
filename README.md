@@ -33,24 +33,11 @@ $ roslaunch my_robot amcl.launch
 | Description | Screenshot |
 | --- | --- |
 | **Initial position and pose**<br/>At startup the robot gets placed at the center of the building (0,0). The blue lines show that the laser scaner and tha walls coincide properly. | <img src="https://github.com/michailtam/where-am-i/blob/master/images/initial_pose_and_laser_scan.png" alt="Initial pose & laser scan" width="760" height="250" border="0" /> |
-| Different initial start pos | <img src="https://github.com/michailtam/where-am-i/blob/master/images/other_initial_start_pos.png" alt="Different initial start pos" width="760" height="250" border="0" /> |
-| 1st AMCL update | <img src="https://github.com/michailtam/where-am-i/blob/master/images/movement_amcl_update_01.png" alt="1st AMCL update" width="760" height="250" border="0" /> |
-| 2nd AMCL update | <img src="https://github.com/michailtam/where-am-i/blob/master/images/movement_amcl_update_02.png" alt="2nd AMCL update" width="760" height="250" border="0" /> |
-| 3rd AMCL update | <img src="https://github.com/michailtam/where-am-i/blob/master/images/movement_amcl_update_03.png" alt="3rd AMCL update" width="760" height="250" border="0" /> |
-| 4th AMCL update | <img src="https://github.com/michailtam/where-am-i/blob/master/images/movement_amcl_update_04.png" alt="4th AMCL update" width="760" height="250" border="0" /> |
-
-
-<table>
-    <th>Description</th><th>Screenshot</th>
-    <tr>
-        <td><b>Initial position and pose</b><br/>At startup the robot gets placed at the center of the building (0,0). The blue lines show that the 		laser scaner and tha walls coincide properly.</td>
-        <td><img src="https://github.com/michailtam/where-am-i/blob/master/images/initial_pose_and_laser_scan.png" alt="Initial pose & laser scan" 		width="760" height="250" border="0" /></td>
-    </tr>
-    <tr>
-        <td><b>Different initial start pos</b><br/>At startup the robot gets placed at the center of the building (0,0). The blue lines show that the 		laser scaner and tha walls coincide properly.</td>
-        <td><img src="https://github.com/michailtam/where-am-i/blob/master/images/other_initial_start_pos.png" alt="Different initial start pos" 		width="760" height="250" border="0" /></td>
-    </tr>
-</table>
+| **Different initial start pos**<br/>At startup the robot gets placed at the center of the building (0,0). The blue lines show that the laser scaner and tha walls coincide properly. | <img src="https://github.com/michailtam/where-am-i/blob/master/images/other_initial_start_pos.png" alt="Different initial start pos" width="760" height="250" border="0" /> |
+| **1st AMCL update**<br />At startup the robot gets placed at the center of the building (0,0). The blue lines show that the laser scaner and tha walls coincide properly. | <img src="https://github.com/michailtam/where-am-i/blob/master/images/movement_amcl_update_01.png" alt="1st AMCL update" width="760" height="250" border="0" /> |
+| **2nd AMCL update**<br />At startup the robot gets placed at the center of the building (0,0). The blue lines show that the laser scaner and tha walls coincide properly. | <img src="https://github.com/michailtam/where-am-i/blob/master/images/movement_amcl_update_02.png" alt="2nd AMCL update" width="760" height="250" border="0" /> |
+| **3rd AMCL update** <br />At startup the robot gets placed at the center of the building (0,0). The blue lines show that the laser scaner and tha walls coincide properly. | <img src="https://github.com/michailtam/where-am-i/blob/master/images/movement_amcl_update_03.png" alt="3rd AMCL update" width="760" height="250" border="0" /> |
+| **4th AMCL update**<br />At startup the robot gets placed at the center of the building (0,0). The blue lines show that the laser scaner and tha walls coincide properly. | <img src="https://github.com/michailtam/where-am-i/blob/master/images/movement_amcl_update_04.png" alt="4th AMCL update" width="760" height="250" border="0" /> |
 
 
 
