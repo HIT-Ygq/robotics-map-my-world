@@ -14,11 +14,18 @@ This project assumes that you are using Ubuntu (tested on Ubuntu 20.4 LST) and t
 are installed. The installation instructions can be found [here](http://wiki.ros.org/kinetic/Installation/Ubuntu) and [here](http://gazebosim.org/tutorials?tut=install_ubuntu).
 
 ### Installation
-To install the repository follow the following steps:
+To install the repository and packages follow the following steps:
 
 1. Clone the repository ```$ git clone https://github.com/michailtam/where-am-i.git```
 2. Change into the **src** folder ```$ cd src``` and initialize the workspace ```$ catkin_init_workspace```
 3. Return to the toplevel catkin folder and build the packages```$ catkin_make```
+4. You also need to install the following packages:
+```
+$ sudo apt-get install ros-kinetic-navigation
+$ sudo apt-get install ros-kinetic-map-server
+$ sudo apt-get install ros-kinetic-move-base
+$ sudo apt-get install ros-kinetic-amcl
+```
 
 ### Running the simulation
 To run the simulation follow the following steps:
