@@ -30,9 +30,36 @@ $ roslaunch my_robot amcl.launch
 
 #### Screenshots
 
-| --- |
 | **Initial position and pose** |
+| --- |
 | At startup the robot gets placed at the center of the building (0,0). The blue lines show that the laser scaner and the walls coincide properly. |
 | **Screenshot** |
 | <img src="https://github.com/michailtam/where-am-i/blob/master/images/initial_pose_and_laser_scan.png" alt="Initial pose & laser scan" width="760" height="450" border="0" /> |
+| **Different initial start pos** |
+| --- |
+| The robot gets placed to another place of the building (left side of the floor),but its orientation keeps the same. In this case, the laser scaner does not match with the walls and the particles are spread nearly over the entire building. This means that the robot at this point does not know it's position and orientation in relation to the building. |
+| **Screenshot** |
+| <img src="https://github.com/michailtam/where-am-i/blob/master/images/other_initial_start_pos.png" alt="Different initial start pos" width="760" height="450" border="0" /> |
+| **1st AMCL update** |
+| --- | 
+| After the first AMCL update the particles converge toward the robot (the particles near the robot are getting more dense) and laser scan gets adjusted towards the wall. This is expected, because while the particles are getting updated, the robot gets more and more confortable about its localization in the environment. | 
+| **Screenshot** |
+| <img src="https://github.com/michailtam/where-am-i/blob/master/images/movement_amcl_update_01.png" alt="1st AMCL update" width="760" height="450" border="0" /> |
+| **2nd AMCL update** |
+| --- |
+| At startup the robot gets placed at the center of the building (0,0). The blue lines show that the laser scaner and tha walls coincide properly. |
+| **Screenshot** |
+| <img src="https://github.com/michailtam/where-am-i/blob/master/images/movement_amcl_update_02.png" alt="2nd AMCL update" width="760" height="450" border="0" /> |
+| **3rd AMCL update** |
+| --- |
+| At startup the robot gets placed at the center of the building (0,0). The blue lines show that the laser scaner and tha walls coincide properly. | 
+| **Screenshot** |
+| <img src="https://github.com/michailtam/where-am-i/blob/master/images/movement_amcl_update_03.png" alt="3rd AMCL update" width="760" height="450" border="0" /> |
+| **4th AMCL update** | 
+| --- |
+| At startup the robot gets placed at the center of the building (0,0). The blue lines show that the laser scaner and tha walls coincide properly. | 
+| **Screenshot** |
+| <img src="https://github.com/michailtam/where-am-i/blob/master/images/movement_amcl_update_04.png" alt="4th AMCL update" width="760" height="450" border="0" /> |
+
+
 
