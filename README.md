@@ -30,6 +30,7 @@ $ roslaunch my_robot amcl.launch
 
 #### Screenshots
 
+| --- |
 | **Initial position and pose** |
 | At startup the robot gets placed at the center of the building (0,0). The blue lines show that the laser scaner and the walls coincide properly. |
 | **Screenshot** |
