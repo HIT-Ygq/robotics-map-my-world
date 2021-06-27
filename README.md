@@ -39,7 +39,9 @@ $ roslaunch my_robot amcl.launch
 | **3rd AMCL update** <br />At startup the robot gets placed at the center of the building (0,0). The blue lines show that the laser scaner and tha walls coincide properly. | <img src="https://github.com/michailtam/where-am-i/blob/master/images/movement_amcl_update_03.png" alt="3rd AMCL update" width="760" height="250" border="0" /> |
 | **4th AMCL update**<br />At startup the robot gets placed at the center of the building (0,0). The blue lines show that the laser scaner and tha walls coincide properly. | <img src="https://github.com/michailtam/where-am-i/blob/master/images/movement_amcl_update_04.png" alt="4th AMCL update" width="760" height="250" border="0" /> |
 
+<style>
 
+</style>
 
 
 
