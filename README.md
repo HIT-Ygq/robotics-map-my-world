@@ -40,38 +40,37 @@ and the laser scan get used so the robot is able to determine it's location in t
 
 | **Initial position and pose** |
 | :--- |
-| At startup the robot gets placed at the center of the building (0,0). The blue flat squares show how the laser scan and the walls coincide at startup. This is necessary, because otherwise we do not know if the created map matches the dimensions
-of the envirnoment in gazebo. This would lead to the inaccuracy of the localization process. |
+| At startup the robot gets placed at the center of the building ***(0,0)***. The blue flat squares show how the laser scan and the walls coincide together. This is necessary, because otherwise we do not know if the created map matches the dimensions of the environment in gazebo. This would lead to the inaccuracy of the localization process. |
 | **Screenshot** |
 | <img src="https://github.com/michailtam/where-am-i/blob/master/images/initial_pose_and_laser_scan.png" alt="Initial pose & laser scan" width="560" height="300" border="0" /> |
 
 | **Different initial start pos** |
 | :--- |
-| The robot gets placed at another place in the building (left side of the floor),but its orientation keeps the same. In this case, the laser scan does not coincide with the walls and the particles are spread nearly over the entire building. This shows that the robot at this state does not know it's location (position and orientation) in relation to the building. |
+| The robot gets placed at another place in the building ***(left side of the floor)***, but its orientation keeps the same. In this case, the laser scan does not coincide with the walls and the particles are spread nearly over the entire building. This shows that the robot at this state does not know it's location ***(position and orientation)*** in relation to the building. |
 | **Screenshot** |
 | <img src="https://github.com/michailtam/where-am-i/blob/master/images/other_initial_start_pos.png" alt="Different initial start pos" width="560" height="300" border="0" /> |
 
 | **1st movement observation** |
 | :--- | 
-| This observation shows that the particles converge toward the robot (the particles near the robot are getting more dense) and the laser scan gets adjusted towards the walls. This is expected, because while the particles are getting updated, the robot gets more and more confortable about it's localization in the environment. | 
+| This observation shows that the particles start to converge towards the robot ***(the particles near the robot are getting more dense)*** and the laser scan gets adjusted towards the walls. This is expected, because while the particles are getting updated, the robot gets more and more sure about it's location in the environment. | 
 | **Screenshot** |
 | <img src="https://github.com/michailtam/where-am-i/blob/master/images/movement_amcl_update_01.png" alt="1st AMCL update" width="560" height="300" border="0" /> |
 
 | **2nd movement observation** |
 | :--- |
-| This observation shows that the particles have converged toward the robot but there are still a lot of particles which do not coincide with the robots localization. Also, the screenshot shows that the laser scan nearly matches the walls. | 
+| This observation shows that the particles have better converged ***(as before)*** toward the robot, but there are still a lot of particles which do not coincide with the robots location. Also, the screenshot shows that the laser scan nearly matches the walls. | 
 | **Screenshot** |
 | <img src="https://github.com/michailtam/where-am-i/blob/master/images/movement_amcl_update_02.png" alt="2nd AMCL update" width="560" height="300" border="0" /> |
 
 | **3rd movement observation** |
 | :--- |
-| This observation shows that the particles have converged toward the robot and there are only some particles which do not coincide with the robots localization. The laser scan matches matches the walls with laser scan data. |  
+| This observation shows that the particles have converged toward the robot and there are only some particles remaininig which do not coincide with the robots location. The laser scan matches matches entirely the walls. |  
 | **Screenshot** |
 | <img src="https://github.com/michailtam/where-am-i/blob/master/images/movement_amcl_update_03.png" alt="3rd AMCL update" width="560" height="300" border="0" /> |
 
 | **4th movement observation** | 
 | :--- |
-| This observation shows that the particles have completely converged toward the robot and there are less particles which do not coincide with the robots localization. The screenshot shows that the robot avoids to crash towards the wall, which proves that the robot knows entirely it's location in the environment. The laser scan matches completely the walls with laser scan data. |  
+| This observation shows that the particles have completely converged toward the robot and there are less particles which do not coincide with the robots location. The screenshot shows that the robot avoids to crash towards the wall, which proves that the robot knows entirely it's location in the building. The laser scan matches entirely the walls as previously. |  
 | **Screenshot** |
 | <img src="https://github.com/michailtam/where-am-i/blob/master/images/movement_amcl_update_04.png" alt="4th AMCL update" width="560" height="300" border="0" /> |
 
