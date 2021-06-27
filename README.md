@@ -35,6 +35,7 @@ $ roslaunch my_robot amcl.launch
 | At startup the robot gets placed at the center of the building (0,0). The blue lines show that the laser scaner and the walls coincide properly. |
 | **Screenshot** |
 | <img src="https://github.com/michailtam/where-am-i/blob/master/images/initial_pose_and_laser_scan.png" alt="Initial pose & laser scan" width="760" height="450" border="0" /> |
+
 | **Different initial start pos** |
 | --- |
 | The robot gets placed to another place of the building (left side of the floor),but its orientation keeps the same. In this case, the laser scaner does not match with the walls and the particles are spread nearly over the entire building. This means that the robot at this point does not know it's position and orientation in relation to the building. |
