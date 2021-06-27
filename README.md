@@ -13,7 +13,6 @@ To install the repository follow the following steps:
 1. Clone the repository ```$ git clone https://github.com/michailtam/where-am-i.git```
 2. Change into the **src** folder ```$ cd src``` and initialize the workspace ```$ catkin_init_workspace```
 3. Return to the toplevel catkin folder and build the packages```$ catkin_make```
-```
 
 ### Running the simulation
 To run the simulation follow the following steps:
@@ -30,4 +29,5 @@ $ roslaunch my_robot amcl.launch
 ```
 
 #### Screenshots
+<img src="https://github.com/michailtam/where-am-i/blob/master/images/initial_pose_and_laser_scan.png" alt="initial pose & laser scan" width="760" height="400" border="0" />
 
