@@ -46,6 +46,10 @@ $ roslaunch my_robot amcl.launch
         <td><b>Initial position and pose</b><br/>At startup the robot gets placed at the center of the building (0,0). The blue lines show that the 		laser scaner and tha walls coincide properly.</td>
         <td><img src="https://github.com/michailtam/where-am-i/blob/master/images/initial_pose_and_laser_scan.png" alt="Initial pose & laser scan" 		width="760" height="250" border="0" /></td>
     </tr>
+    <tr>
+        <td><b>Different initial start pos</b><br/>At startup the robot gets placed at the center of the building (0,0). The blue lines show that the 		laser scaner and tha walls coincide properly.</td>
+        <td><img src="https://github.com/michailtam/where-am-i/blob/master/images/other_initial_start_pos.png" alt="Different initial start pos" 		width="760" height="250" border="0" /></td>
+    </tr>
 </table>
 
 
