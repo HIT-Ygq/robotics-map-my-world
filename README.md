@@ -68,7 +68,7 @@ The AMCL algorithm gets applied using the 3D Visualization tool Rviz and a custo
 | **Screenshot** |
 | <img src="https://github.com/michailtam/where-am-i/blob/master/images/amcl_moving_03.png" alt="2nd AMCL update" width="560" height="300" border="0" /> |
 
-| **4th movement observation** |
+| **Last movement observation** |
 | :--- |
 | The last observation also shows in parallel the known location of the robot in Rviz and gazebo, but here we can see that the orientation has changed so the robot has achieved to move to it's goal position (near the left lower leg of the table) |  
 | **Screenshot** |
