@@ -18,18 +18,18 @@
     <!-- Define robot measurement parameters -->
     <param name="initial_pose_x" value="0"/>
     <param name="initial_pose_y" value="0"/>
-    <param name="initial_pose_a" value="-1.5707"/> 		<!-- //changed -->
-    <param name="min_particles" value="1000"/>
-    <param name="max_particles" value="7000"/>
+    <param name="initial_pose_a" value="-1.5707"/> 		<!-- //adjusted -->
+    <param name="min_particles" value="1000"/>			<!-- //adjusted -->
+    <param name="max_particles" value="7000"/>			<!-- //adjusted -->
     <!-- Odometry noise in translation and rotation -->
-    <param name="odom_model_type" value="diff-corrected"/>	<!-- //changed -->
-    <param name="odom_alpha1" value="0.0015"/>			<!-- //added -->
-    <param name="odom_alpha2" value="0.0015"/> 			<!-- //added -->
-    <param name="odom_alpha3" value="0.0015"/> 			<!-- //added -->
-    <param name="odom_alpha4" value="0.0015"/> 			<!-- //added -->
+    <param name="odom_model_type" value="diff-corrected"/>	<!-- //adjusted -->
+    <param name="odom_alpha1" value="0.0015"/>			<!-- //adjusted -->
+    <param name="odom_alpha2" value="0.0015"/> 			<!-- //adjusted -->
+    <param name="odom_alpha3" value="0.0015"/> 			<!-- //adjusted -->
+    <param name="odom_alpha4" value="0.0015"/> 			<!-- //adjusted -->
 
-    <param name="update_min_a" value="0.3490"/>
-    <param name="laser_max_beams" value="50"/>
+    <param name="update_min_a" value="0.3490"/>			<!-- //adjusted -->
+    <param name="laser_max_beams" value="50"/>			<!-- //adjusted -->
   </node>
 
   <!-- Move Base -->
