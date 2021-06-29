@@ -42,44 +42,36 @@ $ roslaunch my_robot amcl.launch
 ```
 
 #### Screenshots
-The AMCL algorithm gets applied using the 3D Visualization tool Rviz. The below screenshots show how the AMCL algorithm
-and the laser scan get used so the robot is able to determine it's location in the environment. 
+The AMCL algorithm gets applied using the 3D Visualization tool Rviz and a custom created map. The below screenshots show how the AMCL algorithm and the laser scan get used so the robot is able to determine it's location in the environment. The start position in Rviz gets set using the ***2D Pose Estimate*** button and the goal which is near the left leg of the table in the right upper room by using the ***2D Nav Goal*** button. 
 
-| **Initial position and pose** |
+| **Initial location** |
 | :--- |
-| At startup the robot gets placed at the center of the building ***(0,0)***. The blue flat squares show how the laser scan and the walls coincide together. This is necessary, because otherwise we do not know if the created map matches the dimensions of the environment in gazebo. This would lead to the inaccuracy of the localization process. |
+| The mobile robot gets placed to another place in the building ***(left side of the floor)*** and it's orientation gets adjusted so that the camera looks towards the right side of the floor. The screenshot shows that the laserscan does not match with the walls and the pose array of the AMCL algorithm does not converge to the robot location. This behavior gets expected, because at the beginning of the the movement the robot does not know it's location in the building. |
 | **Screenshot** |
-| <img src="https://github.com/michailtam/where-am-i/blob/master/images/initial_pose_and_laser_scan.png" alt="Initial pose & laser scan" width="560" height="300" border="0" /> |
-
-| **Different initial start pos** |
-| :--- |
-| The robot gets placed at another place in the building ***(left side of the floor)***, but its orientation keeps the same. In this case, the laser scan does not coincide with the walls and the particles are spread nearly over the entire building. This shows that the robot at this state does not know it's location ***(position and orientation)*** in relation to the building. |
-| **Screenshot** |
-| <img src="https://github.com/michailtam/where-am-i/blob/master/images/other_initial_start_pos.png" alt="Different initial start pos" width="560" height="300" border="0" /> |
+| <img src="https://github.com/michailtam/where-am-i/blob/master/images/amcl_start_pos.png" alt="Initial pose & laser scan" width="560" height="300" border="0" /> |
 
 | **1st movement observation** |
+| :--- |
+| The first observation shows that the particles start to converge towards the robots location ***(the particles near the robot are getting more dense)*** and the laser scan nearly coincides with the walls. This is also desired, because the pose array gets updated by resampling the particles. Nevertheless, we can observe that the AMCL algorithm needs more steps to converge completely to the robots location. |
+| **Screenshot** |
+| <img src="https://github.com/michailtam/where-am-i/blob/master/images/amcl_moving_01.png" alt="Different initial start pos" width="560" height="300" border="0" /> |
+
+| **2st movement observation** |
 | :--- | 
-| This observation shows that the particles start to converge towards the robot ***(the particles near the robot are getting more dense)*** and the laser scan gets adjusted towards the walls. This is expected, because while the particles are getting updated, the robot gets more and more sure about it's location in the environment. | 
+| The second observation shows that the particles have converge towards the robots location ***(the particles near the robot are dense and there are not other particles spread out)*** and the laser scan coincides with the walls. At this point the robot knows exactly it's position and orientation in the building. | 
 | **Screenshot** |
-| <img src="https://github.com/michailtam/where-am-i/blob/master/images/movement_amcl_update_01.png" alt="1st AMCL update" width="560" height="300" border="0" /> |
+| <img src="https://github.com/michailtam/where-am-i/blob/master/images/amcl_moving_02.png" alt="1st AMCL update" width="560" height="300" border="0" /> |
 
-| **2nd movement observation** |
+| **3nd movement observation** |
 | :--- |
-| This observation shows that the particles have better converged ***(as before)*** toward the robot, but there are still a lot of particles which do not coincide with the robots location. Also, the screenshot shows that the laser scan nearly matches the walls. | 
+| The third observation shows in parallel the known location of the robot in Rviz and gazebo. Here we can see that both positions and orientations match exactly with each other. In other words, the robot has achieved to match the map by using it's measurement data and the AMCL algorithm. | 
 | **Screenshot** |
-| <img src="https://github.com/michailtam/where-am-i/blob/master/images/movement_amcl_update_02.png" alt="2nd AMCL update" width="560" height="300" border="0" /> |
+| <img src="https://github.com/michailtam/where-am-i/blob/master/images/amcl_moving_03.png" alt="2nd AMCL update" width="560" height="300" border="0" /> |
 
-| **3rd movement observation** |
+| **4rd movement observation** |
 | :--- |
-| This observation shows that the particles have converged toward the robot and there are only some particles remaininig which do not coincide with the robots location. The laser scan matches matches entirely the walls. |  
+| The last observation also shows in parallel the known location of the robot in Rviz and gazebo, but here we can see that the orientation has changed so the robot matches to move to it's goal (as explained above) |  
 | **Screenshot** |
-| <img src="https://github.com/michailtam/where-am-i/blob/master/images/movement_amcl_update_03.png" alt="3rd AMCL update" width="560" height="300" border="0" /> |
-
-| **4th movement observation** | 
-| :--- |
-| This observation shows that the particles have completely converged toward the robot and there are less particles which do not coincide with the robots location. The screenshot shows that the robot avoids to crash towards the wall, which proves that the robot knows entirely it's location in the building. The laser scan matches entirely the walls as previously. |  
-| **Screenshot** |
-| <img src="https://github.com/michailtam/where-am-i/blob/master/images/movement_amcl_update_04.png" alt="4th AMCL update" width="560" height="300" border="0" /> |
-
+| <img src="https://github.com/michailtam/where-am-i/blob/master/images/amcl_moving_04.png" alt="3rd AMCL update" width="560" height="300" border="0" /> |
 
 
