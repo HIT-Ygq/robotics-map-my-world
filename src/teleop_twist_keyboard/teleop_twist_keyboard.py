@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-# Teleop twist keyboard package
 from __future__ import print_function
 
 import threading
