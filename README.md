@@ -61,9 +61,9 @@ In Rviz setup the following ... (IS COMING SOON)
 | **Screenshot** |
 | <img src="https://github.com/michailtam/map-my-world/blob/master/images/rtabmap-rviz.png" alt="SLAM in rviz" width="660" height="400" border="0" /> |
 
-| **Created 2D & 3D Map after SLAM** |
-| :--- | :--- | 
-| The created 2D and 3D map of the office |
+| **Created 2D Map after SLAM** | **Created 3D Map after SLAM** |
+| :---: | :---: | 
+| The created 2D office map | The created 3D office map |
 | **Screenshots** | **Screenshots** |
 | <img src="https://github.com/michailtam/map-my-world/blob/master/images/slam_rviz_01.png" alt="Created 2D map" width="360" height="200" border="0" /> | <img src="https://github.com/michailtam/map-my-world/blob/master/images/slam_rviz_02.png" alt="Created 3D map" width="360" height="200" border="0" /> |
 
