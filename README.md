@@ -65,7 +65,7 @@ In Rviz setup the following ... (IS COMING SOON)
 | :---: | :---: | 
 | The created 2D office map | The created 3D office map |
 | **Screenshots** | **Screenshots** |
-| <img src="https://github.com/michailtam/map-my-world/blob/master/images/slam_rviz_01.png" alt="Created 2D map" width="360" height="400" border="0" /> | <img src="https://github.com/michailtam/map-my-world/blob/master/images/slam_rviz_02.png" alt="Created 3D map" width="360" height="400" border="0" /> |
+| <img src="https://github.com/michailtam/map-my-world/blob/master/images/slam_rviz_01.png" alt="Created 2D map" width="360" height="600" border="0" /> | <img src="https://github.com/michailtam/map-my-world/blob/master/images/slam_rviz_02.png" alt="Created 3D map" width="360" height="400" border="0" /> |
 
 
 
