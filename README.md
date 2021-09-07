@@ -41,10 +41,10 @@ In Rviz setup the following ... (IS COMING SOON)
 | :--- |
 | The created 2D map and path after SLAM and what the camera sees |
 | **Screenshot** |
-| <img src="https://github.com/michailtam/map-my-world/tree/master/images/rtabmap-dbviewer-start_0.png" alt="Map after SLAM" width="560" height="300" border="0" /> |
+| <img src="https://github.com/michailtam/map-my-world/master/images/rtabmap-dbviewer-start_0.png" alt="Map after SLAM" width="560" height="300" border="0" /> |
 
-| **Particles while executing SLAM** |
+| **Generated particles while executing SLAM (DB Viewer)** |
 | :--- |
 | The created 2D map and output of the DB viewer (particles) |
 | **Screenshot** |
-| <img src="https://github.com/michailtam/map-my-world/tree/master/images/rtabmap-dbviewer-start.png" alt="DB viewer while after SLAM" width="560" height="300" border="0" /> |
+| <img src="https://github.com/michailtam/map-my-world/master/images/rtabmap-dbviewer-start.png" alt="DB viewer while after SLAM" width="560" height="300" border="0" /> |
