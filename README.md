@@ -37,7 +37,7 @@ $ roslaunch my_robot mapping.launch
 In Rviz setup the following ... (IS COMING SOON)
 
 #### Screenshots
-| **Map after SLAM** |
+| **2D Map after SLAM** |
 | :--- |
 | The created 2D map and path after SLAM and what the camera sees |
 | **Screenshot** |
@@ -47,4 +47,26 @@ In Rviz setup the following ... (IS COMING SOON)
 | :--- |
 | The created 2D map and output of the DB viewer (particles) |
 | **Screenshot** |
-| <img src="https://github.com/michailtam/map-my-world/master/images/rtabmap-dbviewer-start.png" alt="DB viewer while after SLAM" width="560" height="300" border="0" /> |
+| <img src="https://github.com/michailtam/map-my-world/blob/master/images/rtabmap-dbviewer-start.png" alt="DB viewer while after SLAM" width="560" height="300" border="0" /> |
+
+| **3D Office in Gazebo** |
+| :--- |
+| The office where the robot performs SLAM |
+| **Screenshot** |
+| <img src="https://github.com/michailtam/map-my-world/blob/master/images/rtabmap-gazebo.png" alt="Gazebo office" width="560" height="300" border="0" /> |
+
+| **SLAM visualized in 3D in Rviz** |
+| :--- |
+| The visualized output in rviz after performing SLAM |
+| **Screenshot** |
+| <img src="https://github.com/michailtam/map-my-world/blob/master/images/rtabmap-rviz.png" alt="SLAM in rviz" width="560" height="300" border="0" /> |
+
+| **Created 2D & 3D Map after SLAM** |
+| :--- |
+| The created 2D and 3D map of the office |
+| **Screenshots** |
+| <img src="https://github.com/michailtam/map-my-world/blob/master/images/slam_rviz_01.png" alt="Created 2D map" width="560" height="300" border="0" /> | <img src="https://github.com/michailtam/map-my-world/blob/master/images/slam_rviz_02.png" alt="Created 3D map" width="560" height="300" border="0" /> |
+
+
+
+
