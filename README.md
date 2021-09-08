@@ -11,7 +11,7 @@ In this robotics simulation a custom *mobile robot* moves in a building and exec
 This project assumes that you are using Ubuntu (tested on Ubuntu 20.4 LST) and that ROS (tested on noetic), gazebo and all the required packages are installed. The installation instructions can be found [here](http://wiki.ros.org/kinetic/Installation/Ubuntu) and [here](http://gazebosim.org/tutorials?tut=install_ubuntu).
 
 ### Installation
-To install the repository and packages, please follow the bellow steps. If you encounter any problems please refer to the [disussion forum of ROS](https://discourse.ros.org/) to get further help.
+To install the repository and packages, please follow the bellow steps. If you encounter any problems please refer to the [discussion forum of ROS](https://discourse.ros.org/) to get further help.
 
 1. Clone the repository ```$ git clone https://github.com/michailtam/map-my-world.git```
 2. Change into the **src** folder ```$ cd src``` and initialize the workspace ```$ catkin_init_workspace```
