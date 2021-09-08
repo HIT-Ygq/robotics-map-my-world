@@ -52,9 +52,9 @@ View -> Constraint View
 View -> Graph View
 
 #### Screenshots
-| **2D Map after SLAM** |
+| **1st RTAB-DB Output** |
 | :--- |
-| The created 2D map and path after SLAM and what the camera sees |
+| Left: The created 2D map and the path the robot is traversing\nCenter: The output of the camera\nRight: The constraints view | 
 | **Screenshot** |
 | <img src="https://github.com/michailtam/map-my-world/blob/master/images/rtabmap-dbviewer-start_0.png" alt="Map after SLAM" width="660" height="400" border="0" /> |
 
