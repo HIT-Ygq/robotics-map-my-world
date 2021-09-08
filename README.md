@@ -54,23 +54,23 @@ View -> Graph View
 #### Screenshots
 | **1st RTAB-DB Output** |
 | :--- |
-| Left: The created 2D map and the path the robot is traversing\nCenter: The output of the camera\nRight: The constraints view | 
+| Left: The created 2D map and the path the robot is traversing, Center: The output of the camera, Right: The constraints view | 
 | **Screenshot** |
 | <img src="https://github.com/michailtam/map-my-world/blob/master/images/rtabmap-dbviewer-start_0.png" alt="Map after SLAM" width="660" height="400" border="0" /> |
 
-| **RTAB-DB Viewer** |
+| **2nd RTAB-DB Output** |
 | :--- |
-| With the *rtabmap-databaseViewer* you can check for loop closures, extract images and much more! |
+| Left: The created 2D map and the path the robot is traversing, Center: The output of the camera, Right: The constraints view |
 | **Screenshot** |
 | <img src="https://github.com/michailtam/map-my-world/blob/master/images/rtabmap-dbviewer-start.png" alt="DB viewer while after SLAM" width="660" height="400" border="0" /> |
 
 | **3D Office in Gazebo** |
 | :--- |
-| The office where the robot performs SLAM |
+| The office where the robot is moving and performs SLAM |
 | **Screenshot** |
 | <img src="https://github.com/michailtam/map-my-world/blob/master/images/rtabmap-gazebo.png" alt="Gazebo office" width="660" height="400" border="0" /> |
 
-| **SLAM visualized in 3D in Rviz** |
+| **SLAM visualization in Rviz (in 3D)** |
 | :--- |
 | The visualized output in rviz after performing SLAM |
 | **Screenshot** |
@@ -86,4 +86,4 @@ An example of executing SLAM is shown in the video below.
 
 #### Video
 <a href="https://youtu.be/6FNHveEkFfM" target="_blank">
-<img src="https://github.com/michailtam/map-my-world/blob/master/images/video_preview.png" alt="Map My World (ROS) Video" width="760" height="400" border="0" />
+<img src="https://github.com/michailtam/map-my-world/blob/master/images/video_preview.png" alt="Map My World (ROS) Video" width="560" height="300" border="0" />
