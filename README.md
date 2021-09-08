@@ -81,3 +81,9 @@ View -> Graph View
 | The created 2D office map | The created 3D office map |
 | **Screenshots** | **Screenshots** |
 | <img src="https://github.com/michailtam/map-my-world/blob/master/images/slam_rviz_01.png" alt="Created 2D map" width="360" height="600" border="0" /> | <img src="https://github.com/michailtam/map-my-world/blob/master/images/slam_rviz_02.png" alt="Created 3D map" width="360" height="550" border="0" /> |
+
+An example of executing SLAM is shown in the video below.
+
+#### Video
+<a href="https://youtu.be/6FNHveEkFfM" target="_blank">
+<img src="https://github.com/michailtam/map-my-world/blob/master/images/video_preview.png" alt="Map My World (ROS) Video" width="760" height="400" border="0" />
