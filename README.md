@@ -64,7 +64,7 @@ View -> Graph View
 | **Screenshot** |
 | <img src="https://github.com/michailtam/map-my-world/blob/master/images/rtabmap-dbviewer-start.png" alt="DB viewer while after SLAM" width="660" height="400" border="0" /> |
 
-| **3D Office in Gazebo** |
+| **3D Office visualization in Gazebo** |
 | :--- |
 | The office where the robot is moving and performs SLAM |
 | **Screenshot** |
