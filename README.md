@@ -86,4 +86,4 @@ An example of executing SLAM is shown in the video below.
 
 #### Video
 <a href="https://youtu.be/6FNHveEkFfM" target="_blank">
-<img src="https://github.com/michailtam/map-my-world/blob/master/images/video_preview.png" alt="Map My World (ROS) Video" width="560" height="300" border="0" />
+<img src="https://github.com/michailtam/map-my-world/blob/master/images/video_preview.png" alt="Map My World (ROS) Video" width="560" height="400" border="0" />
